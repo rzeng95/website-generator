@@ -1,0 +1,48 @@
+#header-bar {
+    background-color: #373737; /*Background color of header */
+    color: #FFFFFF;            /* Text color inside header */
+    min-height:80px;
+    line-height:80px;
+    text-align: center;
+}
+#headline2 {
+    background-color: #737373;
+    height: 2px;
+}
+
+body {
+    background: #F2F3F4; /* Background color of body */
+    color: #222222;      /* Text color of body */
+    /*font-family: 'Roboto', sans-serif;*/
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+    line-height: 40px;
+}
+
+h4 {
+    line-height: 30px;
+}
+
+#scroll-list{
+    overflow:scroll;
+    height:calc(100vh - 201px);
+    overflow-x: hidden;
+}
+
+a:link {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
